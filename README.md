@@ -97,6 +97,7 @@ Our codes are mainly based on [TransLab](https://github.com/xieenze/Segment_Tran
 
 ## Contact
 Any discussion is welcome. Please contact the authors:
+
 Yang Cao:         yangcao.cs@gmail.com
 
 Zhengqiang Zhang: xtudbxk@126.com
