@@ -1,0 +1,27 @@
+DATASET:
+    NAME: "camouflage_with_fakemix"
+    MEAN: [0.485, 0.456, 0.406]
+    STD: [0.229, 0.224, 0.225]
+    PATH: 'datasets/COD10K-v3'
+AUG:
+    FLIP_PROB: 0.0
+TRAIN:
+    EPOCHS: 300
+    BATCH_SIZE: 4
+    CROP_SIZE: 769
+    BASE_SIZE: 352
+    MODEL_SAVE_DIR: 'workdirs/other_datasets/cod10k'
+    BLOSS_WEIGHT: 1.0   
+TEST:
+    BATCH_SIZE: 1
+    TEST_MODEL_PATH: 'workdirs/other_datasets/cod10k/camouflage_compared_with_sinet.pth'
+
+SOLVER:
+    LR: 0.003
+    STEP:
+        DECAY_EPOCH: [30, 60]
+
+MODEL:
+    MODEL_NAME: "FANet"
+    BACKBONE: "resnet50"
+

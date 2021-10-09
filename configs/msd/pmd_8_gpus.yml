@@ -1,0 +1,26 @@
+DATASET:
+    NAME: "msd_with_fakemix"
+    MEAN: [0.485, 0.456, 0.406]
+    STD: [0.229, 0.224, 0.225]
+    PATH: 'datasets/MSD'
+AUG:
+    ROTATE: True
+TRAIN:
+    EPOCHS: 400
+    BATCH_SIZE: 4
+    CROP_SIZE: 769
+    BASE_SIZE: 384
+    MODEL_SAVE_DIR: 'workdirs/other_datasets/msd/pmd'
+    BLOSS_WEIGHT: 1.0   
+TEST:
+    BATCH_SIZE: 1
+    TEST_MODEL_PATH: 'workdirs/other_datasets/msd/pmd/msd_compared_with_pmd.pth'
+
+SOLVER:
+    LR: 0.01
+    STEP:
+        DECAY_EPOCH: [30, 60]
+
+MODEL:
+    MODEL_NAME: "FANet"
+    BACKBONE: "gluon_resnext101_32x4d"
