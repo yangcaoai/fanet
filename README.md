@@ -7,7 +7,9 @@
 - [Training](#Training)
 - [Evaluation](#Evaluation)
 - [Citations](#Citations)
+- [License](#License)
 - [Acknowledgements](#Acknowledgements)
+- [Contact](#Contact)
 
 ## Introduction
 This repository provides the code for the paper ["FakeMix and AdaptiveASPP for Transparent Object Detection"](https://arxiv.org/pdf/2103.13279.pdf).
@@ -76,9 +78,23 @@ Please cite our paper if the project helps.
       journal={arXiv preprint arXiv:2103.13279},
         year={2021}
         }
+
+@misc{fanet,
+    author = {Cao, Yang and Zhang, Zhengqiang},
+    title = {fanet},
+    howpublished = {\url{https://github.com/yangcao1996/fanet}},
+    year ={2021}
+}
         
 ```
+## License
+For academic use, this project is licensed under [the Apache 2.0 License](https://github.com/yangcao1996/fanet/blob/main/LICENSE)
+For commercial use, please contact the authors.
 
 ## Acknowledgements
 Our codes are mainly based on [TransLab](https://github.com/xieenze/Segment_Transparent_Objects). Thanks to their wonderful works.
 
+## Contact
+Any discussion is welcome. Please contact the authors:
+Yang Cao:         yangcao.cs@gmail.com
+Zhengqiang Zhang: xtudbxk@126.com
