@@ -116,7 +116,7 @@ build
 trash
 workdirs
 *.bak
-datasets
+
 *.npy
 *.pth
 *.pyc
