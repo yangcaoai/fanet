@@ -89,6 +89,7 @@ Please cite our paper if the project helps.
 ```
 ## License
 For academic use, this project is licensed under [the Apache 2.0 License](https://github.com/yangcao1996/fanet/blob/main/LICENSE)
+
 For commercial use, please contact the authors.
 
 ## Acknowledgements
