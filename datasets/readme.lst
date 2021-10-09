@@ -1,0 +1,15 @@
+create dirs './datasets/Trans10K'
+download the data from https://xieenze.github.io/projects/TransLAB/TransLAB.html
+put the train/validation/test data under './datasets/Trans10K'.
+The data Structure is shown below:
+
+Trans10K/
+├ test
+│   ├ easy
+│   └ hard
+├ train
+│   ├ images
+│   └ masks
+└ validation
+    ├ easy
+    └ hard
