@@ -12,7 +12,7 @@
 - [Contact](#Contact)
 
 ## Introduction
-This repository provides the code for the paper ["FakeMix and AdaptiveASPP for Transparent Object Detection"](https://arxiv.org/pdf/2103.13279.pdf).
+This repository provides the code for the paper ["FakeMix Augmentation Improves Transparent Object Detection"](https://arxiv.org/pdf/2103.13279.pdf).
 
 ## Requirements
 - python3
