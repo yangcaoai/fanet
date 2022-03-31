@@ -100,4 +100,4 @@ Any discussion is welcome. Please contact the authors:
 
 Yang Cao:         yangcao.cs@gmail.com
 
-Zhengqiang Zhang: xtudbxk@126.com
+Zhengqiang Zhang: zhengqiang.zhang@hotmail.com
