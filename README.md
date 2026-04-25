@@ -31,7 +31,7 @@ Please make sure that there is at least one gpu when compiling. Then run:
 ## Pretrained Models and Logs
 The pretrained models and logs can be fould here:
 
-- [Google Drive](https://drive.google.com/drive/folders/1XNdDKfC9oBEeoOOWL4xe7xFS-CLlFrNH?usp=sharing)
+- [Hugging Face](https://huggingface.co/YangCaoCS/FANet_pretrained_models_logs)
 
 - [Baidu Drive](https://pan.baidu.com/s/1A-5ZWc8RiihYXuCFEdTHfQ) with code: j3qp
 
